@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link rel="stylesheet" href="index.css" />
+    <title>Results</title>
+    <link rel="stylesheet" href="result_store.css" />
     <link rel="icon" type="image/x-icon" href="/static_files/book.png" />
   </head>
   <body>
@@ -26,36 +26,44 @@
           <div class="nav__links">
             <a href="index.html"><li>Home</li></a>
             <a href="login.html"><li>Login</li></a>
-            <a href="result_store.html"><li>Results Store</li></a>
-            <a href="results_view.html"><li>Results View</li></a>
+            <a href="result_store.html"><li>Results</li></a>
           </div>
         </div>
       </ul>
     </nav>
     <!-- Navbar End -->
     <div class="main">
-      <div class="card">
-        <img
-          class="card-img"
-          src="/static_files/carg_image.jpg"
-          alt="lap image"
-        />
-        <div class="card-content">
-          <h1>Diploma Mark Management</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum,
-            quis. Dolorum temporibus mollitia fugit ratione unde dolores
-            consequatur aperiam eius asperiores, cum sit explicabo quibusdam
-            sapiente eos quod perspiciatis sint laborum, quasi corrupti!
-            Explicabo?
-          </p>
-          <input
-            class="button"
-            type="button"
-            onclick="window.location.href='login.html'"
-            value="Login"
-          />
-        </div>
+      <div class="container">
+        <h1>Marks of Students</h1>
+        <form action="">
+          <table>
+            <tr>
+              <th>English Communication I</th>
+              <td>S</td>
+            </tr>
+
+            <tr>
+              <th>Engineering Mathematics I</th>
+              <td>S</td>
+            </tr>
+            <tr>
+              <th>Engineering Physics I</th>
+              <td>S</td>
+            </tr>
+            <tr>
+              <th>Engineering Chemistry I</th>
+              <td>S</td>
+            </tr>
+            <tr>
+              <th>Computer Fundamentals</th>
+              <td>S</td>
+            </tr>
+            <tr>
+              <th>Health and Physical Education</th>
+              <td>S</td>
+            </tr>
+          </table>
+        </form>
       </div>
     </div>
     <!-- Footer Start -->
@@ -63,5 +71,6 @@
       <p>© Student Management System</p>
     </footer>
     <!-- Footer End -->
+    <script src="result_store.js"></script>
   </body>
 </html>
